@@ -18,6 +18,18 @@ class AccountNotExist extends StatelessWidget {
               ),
             ),
           ),
+          Center(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 80, 0, 0),
+              child: Text(
+                'Please contact administrator for more information',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+          ),
           Padding(
             padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
             child: GestureDetector(

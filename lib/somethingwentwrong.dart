@@ -16,6 +16,18 @@ class SomethingWentWrong extends StatelessWidget {
               ),
             ),
           ),
+          Center(
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 80, 0, 0),
+              child: Text(
+                'We are working on the problem right away.',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+            ),
+          ),
           Padding(
             padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
             child: GestureDetector(
