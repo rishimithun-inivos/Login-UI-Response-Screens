@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'accessdenied.dart';
+
 class AccountNotExist extends StatelessWidget {
   AccountNotExist({super.key});
 
@@ -20,9 +22,12 @@ class AccountNotExist extends StatelessWidget {
             padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
             child: GestureDetector(
               onTap: () {
-                // Navigator.of(context).push(MaterialPageRoute(
-                //   builder: AccessDenied(),
-                // ));
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => AccessDenied(),
+                  ),
+                );
               },
               child: Container(
                 decoration: BoxDecoration(
