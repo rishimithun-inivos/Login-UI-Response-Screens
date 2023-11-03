@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_screens_ui_collection/somethingwentwrong.dart';
 
 class AccessDenied extends StatelessWidget {
   AccessDenied({super.key});
@@ -23,7 +24,7 @@ class AccessDenied extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => AccessDenied(),
+                    builder: (context) => SomethingWentWrong(),
                   ),
                 );
               },
